@@ -1,2 +1,2 @@
 # LaTeX-Models
-Collection of Latex models updated with ASAP with new packages
+Collection of Latex models updated ASAP with new packages
