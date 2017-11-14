@@ -14,17 +14,31 @@
 \usepackage{todonotes}
 \usepackage{amssymb}
 \usepackage{esvect}
-\usepackage{hyperref}
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
 %commands
 \newcommand{\xvec}{\mathbf{x}}
 \newcommand{\yvec}{\mathbf{y}}
 \newcommand{\wvec}{\mathbf{w}}
 \newcommand{\R}{\mathbb{R}}
+%colors
+\definecolor{lightgold}{HTML}{FFF4B8}
 
 %opening
 \author{Dario Mantegazza}
-\title{Assignment 2 Machine Learning}
+\title{Doc Title}
 
 \begin{document}
 	\maketitle
-	%\tableofcontents
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{Title Title}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=.5]{images/machine_learning_2x.png}
+		\caption{Relevant xkcd}
+		\label{fig:xkcd}	
+	\end{figure}
+	\todo[inline, color=lightgold]{TODO List}
+\end{document}
